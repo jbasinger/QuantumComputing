@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+
+  qiskit:
+    image: svl/qiskit:dev
+    build:
+      context: .
+    volumes:
+      - "./:/code"
